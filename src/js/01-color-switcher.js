@@ -11,7 +11,7 @@ function startRainbowTrip() {
   stopBtn.removeAttribute('disabled');
 }
 function stopRainbowTrip() {
-  //   console.log(`-`);
+  //   console.log(`-`);т
 
   clearInterval(timerId);
   stopBtn.setAttribute('disabled', true);
